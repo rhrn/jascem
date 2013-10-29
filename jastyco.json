@@ -1,0 +1,6 @@
+{
+  src: "src",
+  dest: "dev",
+  copy: "**/*.jade",
+  patterns: "**/*.coffee **/*.styl"
+}

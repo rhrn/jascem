@@ -1,0 +1,35 @@
+{
+  "name": "jascem",
+  "version": "0.0.0",
+  "authors": [
+    "rhrn <maylog@gmail.com>"
+  ],
+  "description": "jade, angular, stylus, coffee-script, express, monogdb boilerplate",
+  "keywords": [
+    "jade",
+    "angular",
+    "stylus",
+    "coffee-script",
+    "express",
+    "monogdb"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.0-rc.3",
+    "angular-resource": "1.2.0-rc.3",
+    "angular-cookies": "1.2.0-rc.3",
+    "angular-i18n": "1.2.0-rc.3",
+    "angular-animate": "1.2.0-rc.3",
+    "angular-touch": "1.2.0-rc.3",
+    "angular-route": "1.2.0-rc.3",
+    "flat-ui-official": "~2.1.0"
+  }
+}
