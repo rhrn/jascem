@@ -2,7 +2,6 @@ express = require 'express'
 mongodb = require 'mongodb'
 promise = require 'node-promise'
 configs = require './configs'
-routers = require './routes'
 
 app = express()
 
@@ -14,6 +13,10 @@ MongoClient.connect configs.mongo.link, (err, db) ->
     dbDeffered.reject err
   else
     dbDeffered.resolve db
+
+    configs.routes app, db
+    configs.middleware app, express
+    configs.views app, express
 
   return
 
